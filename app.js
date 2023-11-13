@@ -3,7 +3,7 @@ function play() {
 
     while(true) {
         const guess = prompt("Guess a number.");
-        if(guess == null){
+        if(guess === null){
             alert("Goodbye!");
             break;
         }if (guess == secretNumber){
